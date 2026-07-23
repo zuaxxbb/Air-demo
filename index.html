@@ -422,7 +422,7 @@ const booking = {
   seat: "18C"
 };
 
-const verifyUrl = `https://indrawing.example/verify/${booking.pnr}`;
+const verifyUrl = `https://air-demo-theta.vercel.app/`;
 
 new QRCode(document.getElementById("qrcode"), { text: verifyUrl, width: 96, height: 96, colorDark: "#001A6E", colorLight: "#ffffff" });
 new QRCode(document.getElementById("qrcode-main"), { text: verifyUrl, width: 120, height: 120, colorDark: "#001A6E", colorLight: "#ffffff" });
